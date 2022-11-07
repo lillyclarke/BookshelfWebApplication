@@ -1,0 +1,68 @@
+*{
+  margin: 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: cadetblue;
+}
+
+.header{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*this is for the home, about, and contact buttons*/
+.specific{
+  display: flex;
+  align-items: center;
+  height: 4vh;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  /*color: plum;*/
+}
+
+.buttons{
+  height: 50px;
+  width: 50px;
+}
+
+/*div:hover{
+  background-color: pink;
+}*/
+
+/*this is for all of the text that is in the nav*/
+#topItems{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*this is the entirety of the books, the box for it*/
+ul{
+  max-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+/*this is each individual book*/
+li{
+    margin: 40px 0 0;
+    max-width: 8em;
+    height: auto;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid pink;
+    border-width: 10px 10px 3px;
+    background-color: plum;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+    border-top: rgb(253, 212, 219) solid 10px;
+}
